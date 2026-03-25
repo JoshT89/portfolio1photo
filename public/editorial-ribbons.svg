@@ -1,0 +1,38 @@
+<svg width="1600" height="1600" viewBox="0 0 1600 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="warm" x1="166" y1="184" x2="875" y2="756" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8F7D"/>
+      <stop offset="1" stop-color="#F4C36F"/>
+    </linearGradient>
+    <linearGradient id="cool" x1="1008" y1="312" x2="1256" y2="1156" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6AD0D5"/>
+      <stop offset="1" stop-color="#9AB6FF"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="814" y1="110" x2="1338" y2="526" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8FF62"/>
+      <stop offset="1" stop-color="#9CFF9B"/>
+    </linearGradient>
+    <filter id="soft-blur" x="-200" y="-200" width="2000" height="2000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <g opacity="0.86" filter="url(#soft-blur)">
+    <path d="M-66 322C114 62 448 36 688 182C930 328 1074 646 896 840C728 1022 378 1050 180 880C-18 712 -200 516 -66 322Z" fill="url(#warm)"/>
+    <path d="M972 80C1120 10 1328 64 1404 220C1482 380 1420 566 1282 660C1152 748 972 726 884 620C798 512 836 146 972 80Z" fill="url(#lime)"/>
+    <path d="M956 566C1144 428 1380 460 1482 646C1590 846 1514 1134 1308 1262C1108 1388 846 1354 734 1168C632 998 744 720 956 566Z" fill="url(#cool)"/>
+    <circle cx="1260" cy="1228" r="210" fill="#F4D38E"/>
+  </g>
+
+  <g stroke="#111218" stroke-opacity="0.08" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1020 112C1176 138 1310 298 1280 492C1252 680 1086 812 922 878"/>
+    <path d="M208 1118C342 994 552 940 730 990C906 1042 1034 1206 1020 1374"/>
+    <path d="M330 250C516 346 614 530 588 684C560 854 378 964 214 978"/>
+  </g>
+
+  <g stroke="white" stroke-opacity="0.22" stroke-width="6" stroke-linecap="round">
+    <path d="M1090 300C1182 330 1250 420 1230 534"/>
+    <path d="M302 1166C380 1088 506 1042 620 1058"/>
+    <path d="M392 326C470 376 518 462 508 556"/>
+  </g>
+</svg>

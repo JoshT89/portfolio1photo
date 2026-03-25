@@ -1,21 +1,22 @@
-﻿import { Cormorant_Garamond, Manrope } from "next/font/google";
+import { Space_Grotesk, Syne } from "next/font/google";
 import "./globals.css";
 
-const bodyFont = Manrope({
+const bodyFont = Space_Grotesk({
   variable: "--font-body",
   subsets: ["latin"],
+  weight: ["400", "500", "700"],
 });
 
-const displayFont = Cormorant_Garamond({
+const displayFont = Syne({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["500", "600", "700", "800"],
 });
 
 export const metadata = {
   title: "Aurelia Vale Photography",
   description:
-    "A cinematic photography portfolio concept built with Next.js and shadcn/ui.",
+    "A bold editorial photography portfolio concept with collage layouts and layered backgrounds.",
 };
 
 export default function RootLayout({ children }) {
